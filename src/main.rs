@@ -70,6 +70,6 @@ pub fn fizz_buzz3() {
             }
             _ => answer = i.to_string(),
         }
-        println!("{}", &answer);
+        println!("{}", answer);
     }
 }
